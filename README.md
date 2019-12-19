@@ -1,5 +1,5 @@
 # French-Wiki-2500-Pretrained-SentencePiece-LM
-I created this French SentencePiece Language Model, by using french Wikipedia articles that had more than 2500 words. The model is an AWD_LSTM, and it was trined for around 14 hours on a GCP using a v100 instance. If your goal is to create a language model more training would be necessary, and most likely a different architecture, but if you are using it as part of a classification task, you can fine-tune this model with your data set. Based on the research from fast.ai a more accurate language model doesn't necessarily mean you will have a better classifier, and often the opposite is true.     
+I created this French SentencePiece Language Model, by using french Wikipedia articles that had more than 2500 words. The model is an AWD_LSTM, and it was trined for around 14 hours on a GCP using a v100 instance. If your goal is to create a language model more training would be necessary, and most likely a different architecture, but if you are using it as part of a classification task, you can fine-tune this model with your data set.   
 
 If you would like to download the pretrained french language model is is available in my [google drive](https://drive.google.com/drive/folders/1hmlxzWQ2DRxAAR_Cdrm32OkwdkEgdF3J?usp=sharing).  
 > Inside you will find several different files:  
